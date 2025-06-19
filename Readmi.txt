@@ -1,0 +1,9 @@
+1. Create virtual environment
+- Masuk Ke Terminal lalu buat virtual environment " python -m venv myenv "
+- Aktifkan virtual environment yang sudah dibuat sebelumnya dengan cara Ketik " myenv\Scripts\activate "
+
+2. Install library
+- Install library dengan cara ketik " pip install pandas numpy streamlit plotly.express
+
+3. Jalankan Program
+- Jalankan program dengan cara ketik pada terminal " streamlit run app.py "

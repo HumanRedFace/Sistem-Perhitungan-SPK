@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* General background and font */
+body {
+    background-color: #f9f9fb;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: #111827;
+}
+
+/* Streamlit main container */
+.block-container {
+    padding: 2rem 3rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #1e3a8a;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+/* File uploader */
+.css-1p05t8e {
+    background-color: #e0f2fe;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dashed #38bdf8;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.stButton > button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.03);
+}
+
+/* Dataframe Table */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+}
+
+/* Sidebar (optional, if used) */
+.css-1d391kg, .css-1d391kg:hover {
+    background-color: #e0f2fe;
+    color: #111827;
+}
+
+/* Plotly Chart Margin Fix */
+.element-container iframe {
+    border-radius: 10px;
+}
+
+/* Selectbox and multiselect */
+.stSelectbox, .stMultiSelect {
+    background-color: #f1f5f9;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 0.95rem;
+}
+
+/* Inputs and number fields */
+input[type="text"], input[type="number"], textarea {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+}
+
+/* Radio, checkbox label improvement */
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.96rem;
+    color: #111827;
+}
